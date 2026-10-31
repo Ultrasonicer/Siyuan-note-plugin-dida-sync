@@ -1,0 +1,12 @@
+node_modules/
+.npm-cache/
+dist/
+dev/
+.test-build/
+package.zip
+*.tsbuildinfo
+.publish/
+.env
+.env.*
+!.env.example
+*.log

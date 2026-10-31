@@ -1,0 +1,16 @@
+{
+  "name": "Ultrasonicer-dida-sync",
+  "author": "Ultrasonicer",
+  "url": "https://github.com/Ultrasonicer/Siyuan-note-plugin-dida-sync",
+  "version": "1.0.1",
+  "minAppVersion": "2.11.1",
+  "backends": ["all"],
+  "frontends": ["all"],
+  "displayName": {"default": "Dida sync", "zh_CN": "滴答同步"},
+  "description": {
+    "default": "Sync the Dida365 inbox and newly completed tasks to a SiYuan page",
+    "zh_CN": "将滴答收集箱及两次同步之间完成的任务分类同步到思源指定页面"
+  },
+  "readme": {"default": "README.md", "zh_CN": "README_zh_CN.md"},
+  "keywords": ["滴答清单", "dida365", "同步", "收集箱", "已完成"]
+}

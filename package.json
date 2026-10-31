@@ -1,0 +1,24 @@
+{
+  "name": "siyuan-plugin-dida-sync",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "description": "将滴答清单收集箱及增量已完成任务同步到思源指定页面",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ultrasonicer/Siyuan-note-plugin-dida-sync.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build && node scripts/package.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/test.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.0",
+    "siyuan": "0.9.0",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.7"
+  }
+}
